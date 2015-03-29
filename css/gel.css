@@ -1,0 +1,24 @@
+body{
+    background-color: #fff;
+}
+.page{
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #fff;
+}
+.grid{
+    /* 61 columns of 16px */
+    width: 976px;
+    margin:0 auto;
+}
+
+.half,
+.aside{
+    float:left;
+}
+.half{
+    width: 304px;
+    margin-right: 16px;
+}
+.aside{
+    width: 336px;
+}

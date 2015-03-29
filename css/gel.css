@@ -5,12 +5,15 @@ body{
     font-family: Verdana, Arial, sans-serif;
     background-color: #fff;
 }
+
 .grid{
     /* 61 columns of 16px */
     width: 976px;
     margin:0 auto;
 }
 
+
+/* 3 columns layout */
 .half,
 .aside{
     float:left;
@@ -21,4 +24,25 @@ body{
 }
 .aside{
     width: 336px;
+    margin-bottom: 16px;
+}
+
+/* Layout A */
+.layoutA .main {
+    float: left;
+    width: 624px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.rowOfFour{
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.rowOfFour div{
+    float: left;
+    width: 144px;
+    margin-left: 16px;
+}
+.rowOfFour div:first-child{
+    margin-left: 0;
 }

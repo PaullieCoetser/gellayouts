@@ -38,11 +38,11 @@ body{
     overflow: hidden;
     margin-bottom: 16px;
 }
-.rowOfFour div{
+.rowOfFour > div{
     float: left;
     width: 144px;
     margin-left: 16px;
 }
-.rowOfFour div:first-child{
+.rowOfFour > div:first-child{
     margin-left: 0;
 }
